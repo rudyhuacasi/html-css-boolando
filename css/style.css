@@ -5,12 +5,14 @@
     box-sizing: border-box;
 }
 header{
-    background-color: orange;
+    background-color: rgb(253, 114, 0);
     height: 70px;
     display: flex;
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 20;
+    border-bottom: 1px solid silver;
 }
 .container{
     width: 1200px;
@@ -33,4 +35,52 @@ header{
 } 
 .icona{
     text-align: right;
+}
+/*main*/
+main{
+    padding-top: 100px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    position: relative;
+}
+.prodotti{
+    width: 380px;
+    margin-right: 20px;
+}
+.piccolo{
+    font-size: 10px;
+}
+.testo{
+    font-size: 15px;
+}
+.numeri{
+    color: red;
+    font-size: 12px;
+}
+del{
+    color: black;
+}
+.content:hover .prodotti{
+    display: none;
+}
+.content:hover .hover-image{
+    display: block;
+}
+.hover-image{
+    display: none;
+    width: 380px;
+    position: relative;
+    margin-right: 20px;
+}
+.cuore{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 5px 10px;
 }
