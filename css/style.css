@@ -1,9 +1,36 @@
+/* header*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: orange;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
 .container{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.small{
+    width: 20%;
+    color: white;
+}
+.large{
+    width: 60%;
+    text-align: center;
+}
+.boolean{
+    width: 180px;
+} 
+.icona{
+    text-align: right;
 }
