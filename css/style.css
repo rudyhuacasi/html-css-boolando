@@ -38,7 +38,7 @@ header{
 }
 /*main*/
 main{
-    padding-top: 100px;
+    padding-top: 100px;;
 }
 .wrap{
     display: flex;
@@ -46,6 +46,7 @@ main{
 }
 .content{
     position: relative;
+    padding-bottom: 60px;
 }
 .prodotti{
     width: 380px;
@@ -83,4 +84,46 @@ del{
     top: 15px;
     right: 20px;
     padding: 5px 10px;
+}
+.col{
+    color: white;
+}
+.red{
+    background-color: red;
+    padding: 5px 6px;
+    position: absolute;
+    bottom: 28%;
+}
+.green{
+    background-color: green;
+    padding: 5px 6px;
+    position: absolute;
+    bottom: 28%;
+}
+.right-1{
+    left: 55px;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.medium{
+    color: white;
+    width: 50%;
+}
+.right{
+    text-align: right;
+}
+p{
+    margin-bottom: 5px;
+}
+.top{
+    margin-top: 5px;
 }
